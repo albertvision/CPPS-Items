@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background.png");
+    background-attachment: fixed;
+    font-family: "Tahoma", "Arial";
+}
+a {
+    color: #30a143;
+    font-weight: bold;
+}
+#container {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+}
+#header {
+    background: #fff;
+    height: 105px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#header .logo {
+    margin: 5px;
+    float: left;
+    width: 350px;
+    height: 100px;
+    background: url('images/logo.png');
+}
+#header .search_box {
+    float: right;
+    margin: 30px;
+}
+#header .search_box input[type=text]{
+    padding: 3px;
+    width: 210px;
+    border: 2px solid #58B334;
+    border-radius: 10px;
+    background: #BDFFA3;
+    font-size: 15pt;
+    color: grey;
+}
+#content {
+    margin-top: 10px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    min-height: 50px;
+}
+#content #title {
+    margin: 5px;  
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25pt;
+}
+#page {
+    display: none;
+}
+#loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-size: 50pt;
+    text-align: center;
+}
+#content #stat {
+    margin: 10px;
+    text-align: center;
+}
+#content table {
+    margin: 0 auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 95%;
+}
+#content tr,td,th {
+    padding: 8px;
+    width: 100px;
+    border: 1px solid #666;
+    text-align: center;
+}
+#content #pages {
+    margin: 10px;
+    text-align: center;
+    display: none;
+}
+#content #pages a.current {
+    font-weight: normal;
+}
+#content #pages a:hover {
+    color: #1e8730;
+}
+#footer {
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #0006AB;
+}
